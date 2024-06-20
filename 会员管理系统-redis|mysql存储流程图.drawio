@@ -1,22 +1,22 @@
-<mxfile host="app.diagrams.net" modified="2024-06-19T09:42:02.300Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="o8NYtO6m0LwPMzmu0TNI" version="24.5.5" type="github">
+<mxfile host="app.diagrams.net" modified="2024-06-20T03:56:52.825Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/125.0.0.0 Safari/537.36" etag="W4vxWX0GPoFyDiLTxiXf" version="24.5.5" type="github">
   <diagram id="6a731a19-8d31-9384-78a2-239565b7b9f0" name="Page-1">
-    <mxGraphModel dx="1408" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="1169" pageHeight="827" background="none" math="0" shadow="0">
+    <mxGraphModel dx="1838" dy="1004" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="4681" pageHeight="3300" background="none" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
         <mxCell id="2" value="start" style="shape=mxgraph.flowchart.terminator;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
           <mxGeometry x="260" y="60" width="120" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3" value="analyse project&#xa; documentation" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
+        <mxCell id="3" value="抖音用户刷礼物" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
           <mxGeometry x="240.5" y="130" width="159" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="4" value="create&#xa;material&#xa;specification" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
+        <mxCell id="4" value="存入redis&lt;div&gt;存入mysql&lt;/div&gt;" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
           <mxGeometry x="240.5" y="510" width="159" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="5" value="check for&#xa;obscurities" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
+        <mxCell id="5" value="处理用户信息" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
           <mxGeometry x="240.5" y="250" width="159" height="80" as="geometry" />
         </mxCell>
-        <mxCell id="6" value="obscurities?" style="shape=mxgraph.flowchart.decision;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
+        <mxCell id="6" value="redis已存在？" style="shape=mxgraph.flowchart.decision;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
           <mxGeometry x="271" y="390" width="98" height="57" as="geometry" />
         </mxCell>
         <mxCell id="7" style="fontStyle=1;strokeColor=#003366;strokeWidth=1;html=1;" parent="1" source="2" target="3" edge="1">
@@ -46,13 +46,16 @@
             <mxPoint x="100" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="13" value="order material" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
+        <mxCell id="13" value="处理积分信息" style="shape=mxgraph.flowchart.data;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
           <mxGeometry x="240.5" y="640" width="159" height="80" as="geometry" />
         </mxCell>
         <mxCell id="14" value="no" style="text;fontStyle=0;html=1;strokeColor=none;gradientColor=none;fillColor=none;strokeWidth=2;align=center;" parent="1" vertex="1">
           <mxGeometry x="320" y="447" width="40" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="15" value="final project" style="shape=mxgraph.flowchart.document;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
+        <mxCell id="AWw2fcNZTOmI5cGRWnfg-57" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="15" target="AWw2fcNZTOmI5cGRWnfg-56">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="15" value="roomId:userId" style="shape=mxgraph.flowchart.document;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;html=1;" parent="1" vertex="1">
           <mxGeometry x="480" y="515" width="140" height="70" as="geometry" />
         </mxCell>
         <mxCell id="16" value="" style="edgeStyle=elbowEdgeStyle;elbow=horizontal;exitX=0.905;exitY=0.5;exitPerimeter=0;fontStyle=1;strokeColor=#003366;strokeWidth=1;html=1;" parent="1" source="4" target="15" edge="1">
@@ -246,6 +249,42 @@
         </mxCell>
         <mxCell id="55" value="no" style="text;fontStyle=0;html=1;strokeColor=none;gradientColor=none;fillColor=none;strokeWidth=2;" parent="1" vertex="1">
           <mxGeometry x="235" y="1624" width="40" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="AWw2fcNZTOmI5cGRWnfg-56" value="roomId再保存店铺Id对应关系？" style="whiteSpace=wrap;html=1;strokeWidth=2;gradientColor=none;gradientDirection=north;fontStyle=0;" vertex="1" parent="1">
+          <mxGeometry x="710" y="520" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="AWw2fcNZTOmI5cGRWnfg-58" value="&lt;div&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &lt;b&gt;douyin:vip&lt;/b&gt;&amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp; &amp;nbsp;&lt;/div&gt;&lt;div&gt;直播间店铺绑定模块 &lt;b&gt;Store&lt;/b&gt;&lt;/div&gt;roomId -&amp;gt; storeId&lt;div&gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;积分查询模块&amp;nbsp;&lt;b&gt;Point&lt;/b&gt;（需要减去会员系统已用积分）&lt;/div&gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;店铺：storeId:userId&lt;/div&gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;主播：storeId:roomId:userId&lt;/div&gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;用户：storeId:userId&lt;/div&gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;平台：&lt;/div&gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;礼物详情模块 &lt;b&gt;Gift&lt;/b&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;主播list:&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;gift:roomId:userId -&amp;gt; list&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;店铺list:&lt;span style=&quot;white-space: pre;&quot;&gt;&#x9;&lt;/span&gt;gift:&lt;/div&gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;平台list:&lt;/div&gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;&lt;br&gt;&lt;/div&gt;&lt;div style=&quot;font-size: 18px;&quot;&gt;用户信息模块 &lt;b&gt;User&lt;/b&gt;&lt;/div&gt;&lt;/div&gt;" style="text;strokeColor=none;align=left;fillColor=none;html=1;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontSize=18;labelBackgroundColor=#4C0099;fontColor=#FFFFFF;spacing=2;spacingLeft=0;" vertex="1" parent="1">
+          <mxGeometry x="920" y="40" width="510" height="480" as="geometry" />
+        </mxCell>
+        <mxCell id="AWw2fcNZTOmI5cGRWnfg-72" value="" style="group" vertex="1" connectable="0" parent="1">
+          <mxGeometry x="950" y="575" width="750" height="490" as="geometry" />
+        </mxCell>
+        <mxCell id="AWw2fcNZTOmI5cGRWnfg-71" value="&lt;b&gt;&lt;font style=&quot;font-size: 17px;&quot;&gt;Redis | Mysql&amp;nbsp; 互操作用例图&lt;/font&gt;&lt;/b&gt;" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=bottom;" vertex="1" parent="AWw2fcNZTOmI5cGRWnfg-72">
+          <mxGeometry width="750" height="490.00000000000006" as="geometry" />
+        </mxCell>
+        <mxCell id="AWw2fcNZTOmI5cGRWnfg-59" value="Redis" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="AWw2fcNZTOmI5cGRWnfg-72">
+          <mxGeometry x="115" y="194.17553191489364" width="30" height="62.55319148936171" as="geometry" />
+        </mxCell>
+        <mxCell id="AWw2fcNZTOmI5cGRWnfg-61" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="AWw2fcNZTOmI5cGRWnfg-72">
+          <mxGeometry x="235" y="35.19" width="280" height="394.81" as="geometry" />
+        </mxCell>
+        <mxCell id="AWw2fcNZTOmI5cGRWnfg-75" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="AWw2fcNZTOmI5cGRWnfg-72" source="AWw2fcNZTOmI5cGRWnfg-59" target="AWw2fcNZTOmI5cGRWnfg-66">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AWw2fcNZTOmI5cGRWnfg-76" style="rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="AWw2fcNZTOmI5cGRWnfg-72" source="AWw2fcNZTOmI5cGRWnfg-60" target="AWw2fcNZTOmI5cGRWnfg-67">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AWw2fcNZTOmI5cGRWnfg-66" value="店铺：Mysql新增新用户" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="AWw2fcNZTOmI5cGRWnfg-72">
+          <mxGeometry x="305" y="69.06914893617022" width="140" height="72.97872340425532" as="geometry" />
+        </mxCell>
+        <mxCell id="AWw2fcNZTOmI5cGRWnfg-67" value="店铺：绑定直播间存入Redis" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="AWw2fcNZTOmI5cGRWnfg-72">
+          <mxGeometry x="305" y="194.17553191489364" width="140" height="72.97872340425532" as="geometry" />
+        </mxCell>
+        <mxCell id="AWw2fcNZTOmI5cGRWnfg-74" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="AWw2fcNZTOmI5cGRWnfg-72" source="AWw2fcNZTOmI5cGRWnfg-61" target="AWw2fcNZTOmI5cGRWnfg-61">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="AWw2fcNZTOmI5cGRWnfg-60" value="Mysql" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" vertex="1" parent="AWw2fcNZTOmI5cGRWnfg-72">
+          <mxGeometry x="605" y="173.3244680851064" width="30" height="62.55319148936171" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
